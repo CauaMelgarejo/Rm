@@ -899,7 +899,7 @@ ul {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 28px;
-  max-width: 860px;
+  max-width: 1040px;
   margin: 0 auto;
 }
 
@@ -907,9 +907,11 @@ ul {
   background: var(--white);
   border: 1.5px solid var(--gray-200);
   border-radius: var(--radius-lg);
-  padding: 40px;
+  padding: 40px 32px;
   transition: transform var(--transition), box-shadow var(--transition);
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .plano-card:hover {
